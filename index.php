@@ -16,14 +16,13 @@
                 <div class="col-12">
                     <h1 class="text-center my-4 fw-bolder">To Do List</h1>
                     <ul class="text-center list-unstyled">
-                        <li class="my-2" v-for="(item, index) in todoList" :class="{'task-done' : item.done}">
+                        <li class="my-2" v-for="(item, index) in todoList" :class="{'task-done' : item.done}" @click="changeStatus(index)">
                             {{ item.name }}
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        
     </div>
     <script src="./script.js"></script>
 </body>
