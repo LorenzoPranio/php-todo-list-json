@@ -8,7 +8,9 @@
     <title>PHP ToDo List JSON</title>
 </head>
 <body>
+    <div id="app">
 
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
