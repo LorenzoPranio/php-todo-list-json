@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +8,6 @@
     <title>PHP ToDo List JSON</title>
 </head>
 <body>
-
 
     <script src="./script.js"></script>
 </body>
