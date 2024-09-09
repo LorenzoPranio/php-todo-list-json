@@ -9,7 +9,11 @@
 </head>
 <body>
     <div id="app">
-
+        <ul>
+            <li v-for="(item, index) in todoList">
+                {{ item.name }}
+            </li>
+        </ul>
     </div>
     <script src="./script.js"></script>
 </body>
